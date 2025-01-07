@@ -1871,6 +1871,7 @@ margin-top: 24px;
     background-size: cover;
     background-position: center bottom;
     height: 993.953px;
+    
 
   }
   .carousel .carousel-item-two {
@@ -1887,14 +1888,14 @@ margin-top: 24px;
     font-weight: 5;
     margin-top: 100px;
 
-    color: #494949;
+    color: #49494900;
     text-align:  center; }
   .carousel .carousel-title-v2 {
     color: #fff; }
   .carousel .carousel-title-v3 {
     color: #bf5757; }
   .carousel .carousel-subtitle-v1 {
-    color: #494949;
+    color: #49494900;
     text-transform:none;
     text-align:  center;
     margin-top: 30px;
@@ -1929,10 +1930,20 @@ margin-top: 24px;
 @media (max-width: 768px) {
   /* 768px */
   .carousel .carousel-title-v1 {
-    font-size: 40px; }
+    font-size: 36px;
+  color: #494949; }
+  .carousel .carousel-subtitle-v1 {
+    color: #494949;
+    text-transform:none;
+    text-align:  center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
   .carousel .carousel-title-v2,
   .carousel .carousel-title-v3 {
     font-size: 30px; }
+
+    
  }
 /* Stylesheet design for above 992px */
 @media (min-width: 992px) {
