@@ -1984,3 +1984,7 @@ margin-top: 24px;
     color: rgb(158, 161, 161);
     font-weight: 300;
   }
+  /*Stopp horizontal slide*/
+  body, html {
+    overflow-x: hidden;
+  }
